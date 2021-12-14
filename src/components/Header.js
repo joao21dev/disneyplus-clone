@@ -52,7 +52,9 @@ const Nav = styled.div`
   display: flex;
   align-items: center;
   padding: 0 30px;
+  overflow-x: hidden;
 `;
+
 const Logo = styled.img`
   width: 80px;
 `;
@@ -89,7 +91,7 @@ const NavMenu = styled.div`
         bottom: -6px;
         opacity: 0;
         transform-origin: left center;
-        transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; 
+        transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
         transform: scaleX(0);
       }
     }
@@ -100,7 +102,6 @@ const NavMenu = styled.div`
         opacity: 1;
       }
     }
-
   }
 `;
 
