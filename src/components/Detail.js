@@ -73,7 +73,8 @@ const ImageTitle = styled.div`
   height: 30vh;
   min-height: 170px;
   width: 35vw;
-  min-width: 300px;
+  min-width: 200px;
+  margin-top: 60px;
 
   img {
     width: 100%;
@@ -99,6 +100,7 @@ const PlayButton = styled.button`
   border: none;
   letter-spacing: 1.8px;
   cursor: pointer;
+  text-transform: uppercase;
 
   &:hover {
     background: rgb(198, 198, 198);
@@ -109,7 +111,6 @@ const TrailerButton = styled(PlayButton)`
   background: rgba(0, 0, 0, 0.3);
   border: solid 1px rgb(249, 249, 249);
   color: rgb(249, 249, 249);
-  text-transform: uppercase;
 `;
 
 const AddButton = styled.button`
@@ -145,4 +146,6 @@ const Description = styled.div`
   line-height: 14;
   font-size: 20px;
   margin-top: 20px;
+  color: rgb(249, 249, 249);
+  max-width: 760px;
 `;
