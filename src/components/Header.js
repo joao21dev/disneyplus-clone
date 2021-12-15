@@ -10,32 +10,32 @@ function Header() {
       <NavMenu>
         <a>
           <img src="/images/home-icon.svg" />
-          <span>Home</span>
+          <span>Início</span>
         </a>
 
         <a>
           <img src="/images/search-icon.svg" />
-          <span>Search</span>
+          <span>Pesquisa</span>
         </a>
 
         <a>
           <img src="/images/watchlist-icon.svg" />
-          <span>Watchlist</span>
+          <span>Minha lista</span>
         </a>
 
         <a>
           <img src="/images/original-icon.svg" />
-          <span>Originals</span>
+          <span>Originais</span>
         </a>
 
         <a>
           <img src="/images/movie-icon.svg" />
-          <span>movies</span>
+          <span>Filmes</span>
         </a>
 
         <a>
           <img src="/images/series-icon.svg" />
-          <span>series</span>
+          <span>Séries</span>
         </a>
       </NavMenu>
 

@@ -54,7 +54,7 @@ const Wrap = styled.div`
   &:hover {
     box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px,
       rgb(0 0 0 / 72%) 0px 16px 30px -10px;
-    transform: scaleX() (1.05);
+    transform: scaleX(1.05) scaleY(1.05);
     border-color: rgba(249, 249, 249, 0.8);
   }
 `;
